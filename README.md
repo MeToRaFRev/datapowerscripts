@@ -1,4 +1,5 @@
 # Datapower - Scripts
+# DONT RUN THIS SCRIPT IF YOU HAVE IMPORTANT DOCKERS RUNNING
 
 Random scripts that ease the use of DP
 
