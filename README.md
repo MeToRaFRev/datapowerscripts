@@ -1,5 +1,11 @@
-# datapowerscripts
-random scripts for dp
+# Datapower - Scripts
 
-. DatapowerUP - Running a DP Docker with ports up(click and go )
-. DPanda - Running a DP Docker with ports up(click and go )
+Random scripts that ease the use of DP
+
+### Prerequisites
+
+Docker for Windows
+
+### Installing
+
+Just run the scripts
