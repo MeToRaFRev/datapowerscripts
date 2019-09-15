@@ -1,0 +1,1 @@
+docker run -d --security-opt seccomp:unconfined  --cap-add SYS_ADMIN --tmpfs /tmp --tmpfs /run --tmpfs /run/lock -p 9022:22 -p 443:443 -p 60000:60000 -p 60020:60020 --stop-timeout 10 --hostname dpod --name dpod ibmcom/datapower-operations-dashboard && docker exec -d -u root dpod /bin/su - -c "export ACCEPT_LICENSE=true;/app/scripts/app-init.sh"
